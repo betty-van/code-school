@@ -1,0 +1,18 @@
+#resources .skill-type, #resources a {
+  font-size: 0.8em;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+#resources .bold-title {
+  font-weight: bold;
+  font-size: 1em;
+}
+#resources a {
+  text-decoration: none;
+  color: #191f1f;
+}
+#resources .skill-type {
+  padding: 5px;
+}
+
+/*# sourceMappingURL=sass.css.map */

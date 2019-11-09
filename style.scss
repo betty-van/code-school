@@ -1,0 +1,22 @@
+$color: rgb(25, 31, 31);
+
+%skill-type {
+    font-size: 0.8em;
+    font-family: 'Source Sans Pro', sans-serif; 
+}
+
+#resources {
+    .bold-title {
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+    a {
+        @extend %skill-type;
+        text-decoration: none;
+        color: $color;
+    }
+    .skill-type {
+        @extend %skill-type;
+        padding: 5px;
+    }
+}
